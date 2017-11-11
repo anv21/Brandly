@@ -1,0 +1,919 @@
+*
+{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans Light";
+}
+
+.select_size {
+    visibility: hidden;
+}
+
+.header {
+    height: 700px;
+    width: 100%;
+    background: url("../img/backgroundslider.jpg") center fixed no-repeat;
+    }
+
+.header_container {
+    width: 1170px;
+}
+
+.textheader h4,
+.textheader h1 {
+    margin-bottom: 50px;
+}
+
+
+.logo a {
+    display: inline;
+    text-decoration: none;
+    padding-top: 25px;
+    padding-left: 75px;
+    color: red;
+    font-size: 40px;
+    font-family: Oswald;
+    float: left;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.menu {
+    margin-left: 350px;
+    margin-bottom: 100px;
+}
+.menu li {
+    display: inline-block;
+    padding-top: 35px;
+    margin-right: 30px;
+}
+
+
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Open Sans";
+    width: 70px;
+    display: block;
+}
+
+.textheader {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: "Open Sans Light";
+    text-transform: uppercase;
+}
+
+.textheader button {
+    border: 1px solid white;
+    background: none;
+    color: white;
+    width: 200px;
+    height: 65px;
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+.textheader button:hover {
+    background: gray;
+    color: paleturquoise;
+    border: none;
+}
+
+.item img  {
+    display: block;
+    margin: 0 auto;
+    }
+
+.item img:first-child, h2  {
+    margin-bottom: 35px;
+}
+
+.item img:first-child  {
+    padding-top: 60px;
+}
+
+.item {
+    text-align: center;
+    font-style: italic;
+}
+
+.item img:last-child  {
+    margin-bottom: 60px;
+}
+
+.products {
+    width: 1230px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.catalog {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.catalog a {
+    display: inline-block;
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+
+    }
+
+.men, .woman, .watches {
+    width: 370px;
+    height: 415px;
+}
+
+.men {
+    background: url("../img/productmen.jpg");
+}
+
+.woman {
+    background: url("../img/productwomen.jpg");
+}
+
+.watches {
+    background: url("../img/productwatches.jpg");
+}
+
+.sales div{
+    display: inline-block;
+    margin-left: 30px;
+    width: 570px;
+    height: 415px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+
+}
+
+.sale {
+    background: url("../img/productssale.jpg");
+}
+
+.megasale {
+    background: url("../img/product2.jpg");
+}
+
+.trending {
+    background: url("../img/bglatest.jpg");
+}
+
+.trend {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.trendimg {
+    float: left;
+    margin-bottom: 130px;
+    padding-right: 30px;
+}
+
+.description h3 {
+    color: red;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-family: "Lato Black";
+    font-size: 35px;
+}
+
+.description h4, p {
+    color: gray;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.button button{
+    display: inline-block;
+    width: 70px;
+    height: 50px;
+    margin-right: 30px;
+    background: none;
+    border: 1px solid gray;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.button_two button {
+    display: inline-block;
+    width: 174px;
+    height: 50px;
+    margin-right: 30px;
+    background: none;
+    border: 1px solid gray;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+.last-child {
+    margin-bottom: 90px;
+}
+
+.blog_item_1 {
+   float: right;
+}
+
+.blog {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.blog_item_1 {
+    display: block;
+    float: right;
+    width: 570px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+}
+
+.blog_item_1 button {
+    width: 174px;
+    height: 50px;
+    background: none;
+    border: 1px solid gray;
+    font-size: 16px;
+}
+
+.prev {
+    display: block;
+    height: 150px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    color: darkgray;
+    font-size: 16px;
+
+
+}
+
+
+.red {
+    color: red;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.author {
+    float: right;
+}
+
+.subscribe {
+    background: url("../img/bgsubscribe.jpg") no-repeat;
+    height: 245px;
+    margin-bottom: 40px;
+}
+
+.subscribe_item {
+    width: 1170px;
+}
+
+.invite {
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding-top: 70px;
+    margin-bottom: 30px;
+}
+
+.email input {
+    float: left;
+    width: 768px;
+    height: 50px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    margin-right: 130px;
+    font-size: 25px;
+}
+
+.invite_buttom button{
+    width: 270px;
+    height: 50px;
+    background: white;
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+}
+
+.like {
+    width: 55px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1360px) {
+    .header {
+        height: 500px;
+        width: 100%;
+        background: url("../img/backgroundslider.jpg") center fixed no-repeat;
+    }
+
+    .header_container {
+        width: 900px;
+    }
+
+    .textheader h4,
+    .textheader h1 {
+        margin-bottom: 20px;
+    }
+
+
+    .logo a {
+        display: inline;
+        text-decoration: none;
+        padding-top: 25px;
+        padding-left: 55px;
+        color: red;
+        font-size: 40px;
+        font-family: Oswald;
+        float: left;
+    }
+
+    .clearfix:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    .menu {
+        margin-left: 300px;
+        margin-bottom: 40px;
+    }
+    .menu li {
+        display: inline-block;
+        padding-top: 35px;
+        margin-right: 20px;
+    }
+
+
+    .menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: "Open Sans";
+        width: 70px;
+        display: block;
+    }
+
+    .textheader {
+        text-align: center;
+        color: white;
+        font-size: 25px;
+        font-family: "Open Sans Light";
+        text-transform: uppercase;
+    }
+
+    .textheader button {
+        border: 1px solid white;
+        background: none;
+        color: white;
+        width: 150px;
+        height: 50px;
+        padding: 10px;
+        transition: all 0.3s;
+    }
+
+    .textheader button:hover {
+        background: gray;
+        color: paleturquoise;
+        border: none;
+    }
+
+    .item img  {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .item img:first-child, h2  {
+        margin-bottom: 35px;
+    }
+
+    .item img:first-child  {
+        padding-top: 60px;
+    }
+
+    .item {
+        text-align: center;
+        font-style: italic;
+    }
+
+    .item img:last-child  {
+        margin-bottom: 60px;
+    }
+
+    .products {
+        width: 900px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .catalog {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    .catalog a {
+        display: inline-block;
+        margin-left: 30px;
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+        font-style: italic;
+        text-align: center;
+
+    }
+
+    .men, .woman, .watches {
+        width: 250px;
+        height: 300px;
+    }
+
+    .men {
+        background: url("../img/productmen.jpg") center;
+    }
+
+    .woman {
+        background: url("../img/productwomen.jpg") center;
+    }
+
+    .watches {
+        background: url("../img/productwatches.jpg") center;
+    }
+
+    .sales div{
+        display: inline-block;
+        margin-left: 30px;
+        width: 393px;
+        height: 350px;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 60px;
+
+    }
+
+    .sale {
+        background: url("../img/productssale.jpg") center;
+    }
+
+    .megasale {
+        background: url("../img/product2.jpg") center;
+    }
+
+    .trending {
+        background: url("../img/bglatest.jpg");
+    }
+
+    .trend {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .trendimg {
+        float: left;
+        margin-bottom: 100px;
+        padding-right: 20px;
+    }
+
+    .trendimg img {
+        width: 400px;
+        height: 410px;
+    }
+
+    .description h3 {
+        color: red;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        font-family: "Lato Black";
+        font-size: 25px;
+    }
+
+    .description h4, p {
+        color: gray;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .button button{
+        display: inline-block;
+        width: 70px;
+        height: 50px;
+        margin-right: 30px;
+        background: none;
+        border: 1px solid gray;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .button_two button {
+        display: inline-block;
+        width: 174px;
+        height: 50px;
+        margin-right: 30px;
+        background: none;
+        border: 1px solid gray;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+
+    .last-child {
+        margin-bottom: 50px;
+    }
+
+    .blog_item_1 {
+        float: right;
+    }
+
+    .blog {
+        width: 900px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .blog_item_1 {
+        display: block;
+        float: right;
+        width: 400px;
+        margin-left: 30px;
+        margin-bottom: 60px;
+    }
+
+    .blog_item_1 img {
+        width: 80%;
+        height: 80%;
+
+    }
+
+    .blog_item_1 button {
+        width: 174px;
+        height: 50px;
+        background: none;
+        border: 1px solid gray;
+        font-size: 16px;
+    }
+
+    .prev {
+        display: block;
+        height: 150px;
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+        color: darkgray;
+        font-size: 16px;
+
+
+    }
+
+
+    .red {
+        color: red;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+
+    .author {
+        float: right;
+    }
+
+    .subscribe {
+        background: url("../img/bgsubscribe.jpg") no-repeat center;
+        height: 245px;
+        margin-bottom: 40px;
+    }
+
+    .subscribe_item {
+        width: 900px;
+    }
+
+    .invite {
+        color: white;
+        text-transform: uppercase;
+        font-size: 16px;
+        padding-top: 70px;
+        margin-bottom: 30px;
+    }
+
+    .email input {
+        float: left;
+        width: 550px;
+        height: 50px;
+        background: none;
+        border: 1px solid white;
+        color: white;
+        margin-right: 130px;
+        font-size: 20px;
+    }
+
+    .invite_buttom button{
+        width: 200px;
+        height: 52px;
+        background: white;
+        color: black;
+        font-size: 14px;
+        text-transform: uppercase;
+        border: none;
+        font-weight: bold;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .header {
+        height: 400px;
+        width: 100%;
+        background: url("../img/backgroundslider.jpg") center fixed no-repeat;
+    }
+
+    .header_container {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .textheader h4,
+    .textheader h1 {
+        margin-bottom: 10px;
+    }
+
+    .logo a {
+        text-decoration: none;
+        padding-top: 25px;
+        margin-bottom: 15px;
+        float: none;
+        border: 2px solid red;
+        display: inline;
+     }
+
+    .menu {
+        display: none;
+    }
+
+    .textheader {
+        font-size: 18px;
+    }
+
+    .item img  {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .item img:first-child, h2  {
+        margin-bottom: 15px;
+    }
+
+    .item img:first-child  {
+        padding-top: 30px;
+    }
+
+    .item {
+        text-align: center;
+        font-style: italic;
+    }
+
+    .item img:last-child  {
+        margin-bottom: 30px;
+    }
+
+    .products {
+        width: 700px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .catalog {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+
+    .catalog a {
+        display: inline-block;
+        margin-left: 30px;
+        color: white;
+        text-decoration: none;
+        font-size: 30px;
+        font-style: italic;
+        text-align: center;
+
+    }
+
+    .men, .woman {
+        width: 250px;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    .watches {
+        margin-top: 15px;
+        width: 530px;
+    }
+
+    .men {
+        background: url("../img/productmen.jpg") center;
+    }
+
+    .woman {
+        background: url("../img/productwomen.jpg") center;
+        margin-right: 0;
+    }
+
+    .watches {
+        background: url("../img/productwatches.jpg") no-repeat center;
+        margin-top: 15px;
+        width: 530px;
+    }
+
+
+    .sales div{
+        width: 515px;
+        height: 350px;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 15px;
+
+    }
+
+    .trend {
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .trendimg {
+        float: left;
+        margin-bottom: 70px;
+        padding-right: 20px;
+     }
+
+    .trendimg img {
+        width: 300px;
+        height: 310px;
+
+    }
+
+    .description h3 {
+        color: red;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        font-family: "Lato Black";
+        font-size: 18px;
+    }
+
+    .description h4, p {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+    .select_size {
+        visibility: visible;
+    }
+    select#soflow {
+        -webkit-appearance: button;
+        -webkit-border-radius: 2px;
+        -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+        -webkit-padding-end: 20px;
+        -webkit-padding-start: 2px;
+        -webkit-user-select: none;
+        background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+        background-position: 97% center;
+        background-repeat: no-repeat;
+        border: 1px solid #AAA;
+        color: #555;
+        font-size: inherit;
+        overflow: hidden;
+        padding: 5px 10px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 300px;
+    }
+
+    .button button{
+    display: none;
+    }
+
+    .button_two button {
+        display: inline-block;
+        width: 100px;
+        height: 50px;
+        margin-right: 15px;
+        margin-top: 15px;
+        background: none;
+        border: 1px solid gray;
+        font-size: 16px;
+        margin-bottom: 30px
+    }
+
+    .last-child {
+        margin-bottom: 5px;
+    }
+
+    .blog {
+        width: 700px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .blog_item_1 {
+        display: block;
+        width: 500px;
+        margin-bottom: 60px;
+    }
+
+    .blog_item_1 img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .blog_item_1 button {
+        width: 174px;
+        height: 50px;
+        background: none;
+        border: 1px solid gray;
+        font-size: 16px;
+    }
+
+    .prev {
+        display: block;
+        height: 150px;
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+        color: darkgray;
+        font-size: 16px;
+
+    }
+
+    .red {
+        color: red;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+
+    .author {
+        float: right;
+    }
+
+    .subscribe {
+        background: url("../img/bgsubscribe.jpg") no-repeat center;
+        height: 245px;
+        margin-bottom: 40px;
+    }
+
+    .subscribe_item {
+        width: 700px;
+    }
+
+    .invite {
+        color: white;
+        text-transform: uppercase;
+        font-size: 16px;
+        padding-top: 70px;
+        margin-bottom: 30px;
+    }
+
+    .email input {
+        float: left;
+        width: 350px;
+        height: 50px;
+        background: none;
+        border: 1px solid white;
+        color: white;
+        margin-right: 100px;
+        font-size: 20px;
+    }
+
+    .invite_buttom button{
+        width: 200px;
+        height: 52px;
+        background: white;
+        color: black;
+        font-size: 14px;
+        text-transform: uppercase;
+        border: none;
+        font-weight: bold;
+    }
+
+
+
+}
